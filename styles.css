@@ -1,2 +1,73 @@
 /* CSS Document */
+body{
+	background-color: #626262;
+	width: 100%;
+	height: 100%;
+}
+header{
+	position: absolute;
+	z-index: 1;
+	margin: 0; 
+	width: 100%;
+	height: 150px;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+	flex-basis: center;
+	align-items: center;
+}
+.logo{
+	margin-left: 5%;
+	width: 50%;
+}
+.logo > h1{
+	font-family: 'Stick No Bills', sans-serif;
+	font-size: 150%;
+	}
+.links{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap:100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+hr{
+	border: 0;
+	width: 85%;
+	margin-right: 10%;
+	border-top:0.1em dotted gray;
+	background-color: transparent;
+	color:transparent;
+}
+.bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.beige_bg{
+	position: relative;
+	width: 95%;
+	height: 100%;
 
+	background: url(images/craft-texture-brown-journal-note.jpg);
+	background-blend-mode: multiply;
+	mix-blend-mode: normal;
+	filter: drop-shadow(13px 4px 11px rgba(0, 0, 0, 0.25));
+	border-radius: 0px 30px 30px 0px;
+}
+.red_bg{
+	position: relative;
+	display: block;
+	float: right;
+	width: 30%;
+	height: 100%;
+	border-radius: 5%;
+	background-color: #FF0202;
+}
