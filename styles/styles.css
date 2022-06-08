@@ -285,18 +285,18 @@ div.group3 > div.right-column > div > div.fish{
 	justify-content: space-around;
 }
 .popup {
-  display: none;
-  position: fixed;
-  padding: 10px;
-  width: 50%;
-  right: 25%;
-  left: 25%;
-  height: auto;
-  top: 25%;
-  background: #F6F3E8;
-  z-index: 20;
-  text-align: center;
-  font-size: 3vw;
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 50%;
+    right: 25%;
+    left: 25%;
+    height: auto;
+    top: 25%;
+    background: #F6F3E8;
+    z-index: 20;
+    text-align: center;
+    font-size: 2.5em;
 }
 .popup > i{
 	position: absolute;
@@ -430,8 +430,11 @@ body > div.bg > div.beige_bg > div.group > div.right-column > img.about-us_img{
 body > div.bg > div.beige_bg > h5{
 	text-align: center;
 }
+	.footer-box > a > img {
+    width: 120%;
+}
 @media (max-width:1080px){
-	.fish, .air-jordan, .links, div.logo > div:nth-child(1), div.logo > div:nth-child(3), div.group3 > div.right-column > div > div.fish{
+	.fish, .air-jordan, .links, div.logo > div:nth-child(1), div.logo > div:nth-child(3), div.group3 > div.right-column > div > div.fish, body > div.bg > div.beige_bg > div:nth-child(6) > div.left-column, body > div.bg > div.beige_bg > hr{
 		display:none;
 	}
 		#container, .group2, .group3, .inner-group {
@@ -445,7 +448,7 @@ body > div.bg > div.beige_bg > h5{
 		margin: 0 10%;
 	}
 	body{
-		font-size:3vw;
+		font-size: 4vw;
 	}
 	.logo > h1 {
     font-size: 5vw;
@@ -472,7 +475,7 @@ body > div.bg > div.beige_bg > h5{
 	.toshoprect {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-		    width: 118px;
+	    width: 3.6em;
 
 }
 	#container > div > div.toshoprect {
@@ -497,9 +500,7 @@ body > div.bg > div.beige_bg > h5{
 }
 	.footer-box {
     margin: 0 5% 2em 5%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    display: block;
 }
 	.product {
     font-size: 4.5vw;
@@ -540,5 +541,63 @@ body > div.bg > div.beige_bg > h5{
     object-fit: cover;
     width: 100%;
     height: 25vw;
+}
+	.right-column {
+    font-size: 1em;
+}
+	div.left-column > h4{
+		font-size: 1em;
+	}
+	.popup {
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    font-size: 1.5em;
+}
+	.red_phone {
+    height: 6rem;
+	font-size: 4rem;
+}
+	.call_me_grid > input[type=text] {
+    height: 6rem;
+}
+	.red_phone {
+    padding: 0 50% 0 70%;
+}
+	.footer-box > a > img {
+    width: 55%;
+}
+	.to_call {
+    float: left;
+    width: 65%;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+	.to_cat {
+    width: 55%;
+    margin: 10% 0 10% 0;
+}
+	.jordan3 {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+	div.group3 > div.right-column {
+    margin: 0;
+}
+	h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+	.popup_group {
+    display: block;
+}
+	#airjordan1 > div.popup_group > .right-column {
+    margin-left: 0;
+}
+	.description {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 }
