@@ -19,13 +19,13 @@
 				<div class="header">
 				<div class="logo">
 				<div style="width:36px; height: 36px; background-color: #C0C0C0"></div>
-				<h1><a href="index.html">SNEAKER-GROUP</a></h1>
+				<h1><a href="index.php">SNEAKER-GROUP</a></h1>
 				<div style="width:36px; height: 36px; background-color: #C0C0C0"></div>
 				</div>
 				<div class="links">
-					<a href="about-us.html">про нас</a>
-					<a href="contact.html">контакти</a>
-					<a href="shop.html">каталог</a>
+					<a href="about-us.php">про нас</a>
+					<a href="contact.php">контакти</a>
+					<a href="shop.php">каталог</a>
 				</div>
 			</div>
 			<hr class="grayline">  
@@ -44,7 +44,7 @@
 					<div class="toshopimage">
 						<img class="jordan" src="images/image1.png">
 						</div>
-					<a href="shop.html">
+					<a href="shop.php">
 						<div class="toshoprect">
 							<img class="shoppingcart" src="images/shopping-bag.png">
 					</div>
@@ -85,7 +85,7 @@
 				    </div>
 				</div>
 				<div class="to_catc">
-					<a href="shop.html">
+					<a href="shop.php">
 				<img class="to_cat" src="images/to_cat.png">
 					</a>
 				</div>
@@ -130,13 +130,13 @@
 			<hr class="grayline">
 			<div class="footer">
 				<div class="footer-box">
-					<a href="shop.html">
+					<a href="shop.php">
 						<img class="footer_shop" src="images/shop.png">
 					</a>
-					<a href="about-us.html">
+					<a href="about-us.php">
 						<img class="footer_about" src="images/about.png">
 					</a>
-					<a href="contacts.html">
+					<a href="contacts.php">
 						<img class="footer_cont" src="images/cont.png">
 					</a>
 				</div>
@@ -157,9 +157,9 @@
 		</div>
 		<div class="popup" id="menu">
 		<i class="fa-solid fa-xmark fa-sm" onclick="hide('menu')" role="button"></i>
-			<p><a href="shop.html" class="menu_item">каталог</a></p>
-			<p><a href="contact.html" class="menu_item">контакти</a></p>
-			<p><a href="about-us.html" class="menu_item">про нас</a></p>
+			<p><a href="shop.php" class="menu_item">каталог</a></p>
+			<p><a href="contact.php" class="menu_item">контакти</a></p>
+			<p><a href="about-us.php" class="menu_item">про нас</a></p>
 		</div>
 	
 </body>
