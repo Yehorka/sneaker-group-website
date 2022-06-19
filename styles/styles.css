@@ -326,25 +326,28 @@ div.group3 > div.right-column > div > div.fish{
   z-index: -1;
 }
 .call_me_grid{
-	display: grid;
-	grid-template-columns: 1fr 0.2fr;
 	margin: 0 10% 5% 10%;
+}
+#call_me > form > i{
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	cursor: pointer;
 }
 .red_phone {
     display: inline-block;
     background-color: red;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    padding: 0 200% 0 100%;
-    margin-left: -55%;
+    border-radius: 100px;
+    padding: 0 2% 0 2%;
     z-index: -1;
     color: #fff;
-    font-size: 2.3vw;
+    font-size: 2vw;
     height: 3vw;
 	cursor: pointer;
+	border: 0;
 }
 .call_me_grid > input[type=text]{
-	font-size:3vw;
+	font-size:2vw;
 	border-radius:50px;
 	border: 0;
 	z-index: 2;

@@ -22,18 +22,22 @@
 		</div>
 		</div>
 	<div class="popup" id="call_me">
-		<i class="fa-solid fa-xmark fa-sm" onclick="hide('call_me')" role="button"></i>
-  		<p>Введіть свій номер і ми вам зателефонуємо</p>
-		<div class="call_me_grid">
-		<input type="text">
-		<div class="red_phone"><i class="fa-solid fa-phone" onclick="hide('call_me')" role="button"></i></div>
-		</div>
-		</div>
+        <form action="?page=contact" method="POST">
+            <i class="fa-solid fa-xmark fa-sm" onclick="hide('call_me')" role="button"></i>
+            <p>Введіть свій номер і ми вам зателефонуємо</p>
+            <div class="call_me_grid">
+                <input name="tel" type="text" placeholder="Введіть номер мобільного телефону">
+                <button class="red_phone" type="submit"><i class="fa-solid fa-phone" type="submit"
+                        onclick="hide('call_me')" role="button"></i></button>
+            </div>
+        </form>
+		
+    </div>
 		<div class="popup" id="menu">
 		<i class="fa-solid fa-xmark fa-sm" onclick="hide('menu')" role="button"></i>
-			<p><a href="http://localhost/sneakers/?page=shop" class="menu_item">каталог</a></p>
-			<p><a href="http://localhost/sneakers/?page=contact" class="menu_item">контакти</a></p>
-			<p><a href="http://localhost/sneakers/?page=about-us" class="menu_item">про нас</a></p>
+			<p><a href="?page=shop" class="menu_item">каталог</a></p>
+			<p><a href="?page=contact" class="menu_item">контакти</a></p>
+			<p><a href="?page=about-us" class="menu_item">про нас</a></p>
 		</div>
 	
 </body>

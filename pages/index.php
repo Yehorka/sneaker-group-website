@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 			<div class="group">
 				<div class="left-column">
 					<div class="fish">
@@ -14,7 +15,7 @@
 					<div class="toshopimage">
 						<img class="jordan" src="images/image1.png">
 						</div>
-					<a href="http://localhost/sneakers/?page=shop">
+					<a href="?page=shop">
 						<div class="toshoprect">
 							<img class="shoppingcart" src="images/shopping-bag.png">
 					</div>
@@ -55,7 +56,7 @@
 				    </div>
 				</div>
 				<div class="to_catc">
-					<a href="shop.php">
+					<a href="?page=shop">
 				<img class="to_cat" src="images/to_cat.png">
 					</a>
 				</div>

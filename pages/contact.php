@@ -15,6 +15,14 @@
 					<h1>Наші контакти</h1>
 					<div class="inner-group">
 						<div class="left-column">
+<?php
+
+if(isset($_POST["tel"])){
+    $phone = $_POST["tel"];
+}
+
+echo "Ваш телефон: ".$phone;
+?>
 							<h4>+380963267933 - для консультації</h4>
 							<h4>+380963268932 - для співпраці</h4>
 							<h4>Електронна пошта:

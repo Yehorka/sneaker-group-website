@@ -19,13 +19,13 @@
 				<div class="header">
 				<div class="logo">
 				<div style="width:36px; height: 36px; background-color: #C0C0C0"></div>
-				<h1><a href="http://localhost/sneakers/?page=index">SNEAKER-GROUP</a></h1>
+				<h1><a href="?page=index">SNEAKER-GROUP</a></h1>
 				<div style="width:36px; height: 36px; background-color: #C0C0C0"></div>
 				</div>
 				<div class="links">
-					<a href="http://localhost/sneakers/?page=about-us">про нас</a>
-					<a href="http://localhost/sneakers/?page=contact">контакти</a>
-					<a href="http://localhost/sneakers/?page=shop">каталог</a>
+					<a href="?page=about-us">про нас</a>
+					<a href="?page=contact">контакти</a>
+					<a href="?page=shop">каталог</a>
 				</div>
 			</div>
 			<hr class="grayline">  
